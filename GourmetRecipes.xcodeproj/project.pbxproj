@@ -1,0 +1,1045 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		851626F51CBB6A2A00E0680E /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 851626F41CBB6A2A00E0680E /* UIScrollView+Refresh.m */; };
+		8520F9AD1CBF9FC90058CAC9 /* CZStepsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8520F9AC1CBF9FC90058CAC9 /* CZStepsButton.m */; };
+		852E85231CBCEB7F00A6ED78 /* CZRecipeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 852E85221CBCEB7F00A6ED78 /* CZRecipeManager.m */; };
+		8553C1EB1CC9B08900234DAB /* CZSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8553C1EA1CC9B08900234DAB /* CZSearchViewController.m */; };
+		8553C26D1CC9EB7100234DAB /* CZSearchScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8553C26C1CC9EB7100234DAB /* CZSearchScrollView.m */; };
+		8568739B1CD086FB00EA5E82 /* frxz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8568739A1CD086FB00EA5E82 /* frxz.mp3 */; };
+		856A8C061CC092580005BC3C /* CZCokingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 856A8C051CC092580005BC3C /* CZCokingViewController.m */; };
+		856A8C0D1CC0B2720005BC3C /* CZLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 856A8C0C1CC0B2720005BC3C /* CZLeftView.m */; };
+		856A8C101CC0B4CA0005BC3C /* CZRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 856A8C0F1CC0B4CA0005BC3C /* CZRightView.m */; };
+		856F74331CB8B5650084A73D /* CZRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 856F74321CB8B5650084A73D /* CZRequestManager.m */; };
+		856F74381CB8B5890084A73D /* NSObject+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = 856F74351CB8B5890084A73D /* NSObject+Parse.m */; };
+		856F74391CB8B5890084A73D /* NSObject+request.m in Sources */ = {isa = PBXBuildFile; fileRef = 856F74371CB8B5890084A73D /* NSObject+request.m */; };
+		857CAE251CC6577D00BB4D82 /* recipe.plist in Resources */ = {isa = PBXBuildFile; fileRef = 857CAE241CC6577D00BB4D82 /* recipe.plist */; };
+		8581AB771CCB4D3B008BF0A0 /* CZWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8581AB761CCB4D3B008BF0A0 /* CZWelcomeViewController.m */; };
+		8590CAFE1CC1E91300E27B4A /* CZStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8590CAFD1CC1E91300E27B4A /* CZStepView.m */; };
+		859852BA1CBF275700134D77 /* CZShowRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859852B91CBF275700134D77 /* CZShowRecipeViewController.m */; };
+		859852C11CBF276A00134D77 /* CZCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 859852BC1CBF276A00134D77 /* CZCollectionViewCell.m */; };
+		859852C21CBF276A00134D77 /* CZControlSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 859852BE1CBF276A00134D77 /* CZControlSwitchView.m */; };
+		859852C31CBF276A00134D77 /* CZRecipSubListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859852C01CBF276A00134D77 /* CZRecipSubListViewController.m */; };
+		859852C61CBF277F00134D77 /* CZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859852C51CBF277F00134D77 /* CZMainViewController.m */; };
+		859E5A261CC4A50100FF21FF /* CZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E5A251CC4A50100FF21FF /* CZTableViewCell.m */; };
+		85AA03B21CC7104200E98670 /* CZListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA03B11CC7104200E98670 /* CZListCollectionViewCell.m */; };
+		85AA03B61CC71CD500E98670 /* CZIconModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA03B51CC71CD500E98670 /* CZIconModel.m */; };
+		85AA03FF1CC7631800E98670 /* CZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA03FE1CC7631800E98670 /* CZTabBar.m */; };
+		85AA04021CC7633F00E98670 /* CZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA04011CC7633F00E98670 /* CZTabBarController.m */; };
+		85AA04131CC799CE00E98670 /* CZFoodDetailedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA04121CC799CE00E98670 /* CZFoodDetailedModel.m */; };
+		85AA04261CC7AD7300E98670 /* CZStrConnectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA04251CC7AD7300E98670 /* CZStrConnectManager.m */; };
+		85AF67EB1CCC626B004998B0 /* CZCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AF67EA1CCC626B004998B0 /* CZCacheManager.m */; };
+		85BD39211CBF438A00DEE9A3 /* CZRecipeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BD39201CBF438A00DEE9A3 /* CZRecipeScrollView.m */; };
+		85BD39241CBF4BA300DEE9A3 /* NSString+BreakUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BD39231CBF4BA300DEE9A3 /* NSString+BreakUp.m */; };
+		85BD39271CBF734700DEE9A3 /* CZIngredientsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BD39261CBF734700DEE9A3 /* CZIngredientsView.m */; };
+		85D1EFF11CAF89D90090451A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D1EFF01CAF89D90090451A /* main.m */; };
+		85D1EFF41CAF89D90090451A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D1EFF31CAF89D90090451A /* AppDelegate.m */; };
+		85D1EFFA1CAF89D90090451A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D1EFF81CAF89D90090451A /* Main.storyboard */; };
+		85D1EFFC1CAF89D90090451A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D1EFFB1CAF89D90090451A /* Assets.xcassets */; };
+		85D1F00A1CAF89DA0090451A /* GourmetRecipesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D1F0091CAF89DA0090451A /* GourmetRecipesTests.m */; };
+		85D1F0151CAF89DA0090451A /* GourmetRecipesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D1F0141CAF89DA0090451A /* GourmetRecipesUITests.m */; };
+		85D1F0501CAF8E9E0090451A /* CZFoodVarietyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D1F04F1CAF8E9E0090451A /* CZFoodVarietyModel.m */; };
+		85D1F0531CAF8EB40090451A /* CZRecipeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D1F0521CAF8EB40090451A /* CZRecipeModel.m */; };
+		85DE53A21CC861B900D26D81 /* CZAdverCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DE53A11CC861B900D26D81 /* CZAdverCycleView.m */; };
+		85DE53AF1CC87A0E00D26D81 /* CZPersonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DE53AE1CC87A0E00D26D81 /* CZPersonTableViewController.m */; };
+		85DE53B11CC87C1700D26D81 /* person.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DE53B01CC87C1700D26D81 /* person.storyboard */; };
+		85DE53BB1CC89F2200D26D81 /* CZFavouriteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DE53BA1CC89F2200D26D81 /* CZFavouriteTableViewController.m */; };
+		AE88F34AEA39BC9EA1A861CF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AA3C614D3918D059CB3256 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85D1F0061CAF89DA0090451A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85D1EFE41CAF89D90090451A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85D1EFEB1CAF89D90090451A;
+			remoteInfo = GourmetRecipes;
+		};
+		85D1F0111CAF89DA0090451A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85D1EFE41CAF89D90090451A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85D1EFEB1CAF89D90090451A;
+			remoteInfo = GourmetRecipes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22BC5563341D2026C9C49138 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		851626F31CBB6A2A00E0680E /* UIScrollView+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Refresh.h"; sourceTree = "<group>"; };
+		851626F41CBB6A2A00E0680E /* UIScrollView+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Refresh.m"; sourceTree = "<group>"; };
+		8520F9AB1CBF9FC90058CAC9 /* CZStepsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZStepsButton.h; sourceTree = "<group>"; };
+		8520F9AC1CBF9FC90058CAC9 /* CZStepsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZStepsButton.m; sourceTree = "<group>"; };
+		852E85211CBCEB7F00A6ED78 /* CZRecipeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZRecipeManager.h; sourceTree = "<group>"; };
+		852E85221CBCEB7F00A6ED78 /* CZRecipeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZRecipeManager.m; sourceTree = "<group>"; };
+		8553C1E91CC9B08900234DAB /* CZSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZSearchViewController.h; sourceTree = "<group>"; };
+		8553C1EA1CC9B08900234DAB /* CZSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZSearchViewController.m; sourceTree = "<group>"; };
+		8553C26B1CC9EB7100234DAB /* CZSearchScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZSearchScrollView.h; sourceTree = "<group>"; };
+		8553C26C1CC9EB7100234DAB /* CZSearchScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZSearchScrollView.m; sourceTree = "<group>"; };
+		8568739A1CD086FB00EA5E82 /* frxz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frxz.mp3; sourceTree = "<group>"; };
+		856A8C041CC092580005BC3C /* CZCokingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCokingViewController.h; sourceTree = "<group>"; };
+		856A8C051CC092580005BC3C /* CZCokingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCokingViewController.m; sourceTree = "<group>"; };
+		856A8C0B1CC0B2720005BC3C /* CZLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLeftView.h; sourceTree = "<group>"; };
+		856A8C0C1CC0B2720005BC3C /* CZLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLeftView.m; sourceTree = "<group>"; };
+		856A8C0E1CC0B4CA0005BC3C /* CZRightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZRightView.h; sourceTree = "<group>"; };
+		856A8C0F1CC0B4CA0005BC3C /* CZRightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZRightView.m; sourceTree = "<group>"; };
+		856F74311CB8B5650084A73D /* CZRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZRequestManager.h; sourceTree = "<group>"; };
+		856F74321CB8B5650084A73D /* CZRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZRequestManager.m; sourceTree = "<group>"; };
+		856F74341CB8B5890084A73D /* NSObject+Parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Parse.h"; sourceTree = "<group>"; };
+		856F74351CB8B5890084A73D /* NSObject+Parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Parse.m"; sourceTree = "<group>"; };
+		856F74361CB8B5890084A73D /* NSObject+request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+request.h"; sourceTree = "<group>"; };
+		856F74371CB8B5890084A73D /* NSObject+request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+request.m"; sourceTree = "<group>"; };
+		857CAE241CC6577D00BB4D82 /* recipe.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipe.plist; sourceTree = "<group>"; };
+		8581AB751CCB4D3B008BF0A0 /* CZWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWelcomeViewController.h; sourceTree = "<group>"; };
+		8581AB761CCB4D3B008BF0A0 /* CZWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWelcomeViewController.m; sourceTree = "<group>"; };
+		8590CAFC1CC1E91300E27B4A /* CZStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZStepView.h; sourceTree = "<group>"; };
+		8590CAFD1CC1E91300E27B4A /* CZStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZStepView.m; sourceTree = "<group>"; };
+		859852B81CBF275700134D77 /* CZShowRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZShowRecipeViewController.h; sourceTree = "<group>"; };
+		859852B91CBF275700134D77 /* CZShowRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZShowRecipeViewController.m; sourceTree = "<group>"; };
+		859852BB1CBF276A00134D77 /* CZCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCollectionViewCell.h; sourceTree = "<group>"; };
+		859852BC1CBF276A00134D77 /* CZCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCollectionViewCell.m; sourceTree = "<group>"; };
+		859852BD1CBF276A00134D77 /* CZControlSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZControlSwitchView.h; sourceTree = "<group>"; };
+		859852BE1CBF276A00134D77 /* CZControlSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZControlSwitchView.m; sourceTree = "<group>"; };
+		859852BF1CBF276A00134D77 /* CZRecipSubListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZRecipSubListViewController.h; sourceTree = "<group>"; };
+		859852C01CBF276A00134D77 /* CZRecipSubListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZRecipSubListViewController.m; sourceTree = "<group>"; };
+		859852C41CBF277F00134D77 /* CZMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZMainViewController.h; sourceTree = "<group>"; };
+		859852C51CBF277F00134D77 /* CZMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZMainViewController.m; sourceTree = "<group>"; };
+		859E5A241CC4A50100FF21FF /* CZTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZTableViewCell.h; sourceTree = "<group>"; };
+		859E5A251CC4A50100FF21FF /* CZTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZTableViewCell.m; sourceTree = "<group>"; };
+		85AA03B01CC7104200E98670 /* CZListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZListCollectionViewCell.h; sourceTree = "<group>"; };
+		85AA03B11CC7104200E98670 /* CZListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZListCollectionViewCell.m; sourceTree = "<group>"; };
+		85AA03B41CC71CD500E98670 /* CZIconModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZIconModel.h; sourceTree = "<group>"; };
+		85AA03B51CC71CD500E98670 /* CZIconModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZIconModel.m; sourceTree = "<group>"; };
+		85AA03FD1CC7631800E98670 /* CZTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZTabBar.h; sourceTree = "<group>"; };
+		85AA03FE1CC7631800E98670 /* CZTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZTabBar.m; sourceTree = "<group>"; };
+		85AA04001CC7633F00E98670 /* CZTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZTabBarController.h; sourceTree = "<group>"; };
+		85AA04011CC7633F00E98670 /* CZTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZTabBarController.m; sourceTree = "<group>"; };
+		85AA04111CC799CE00E98670 /* CZFoodDetailedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZFoodDetailedModel.h; sourceTree = "<group>"; };
+		85AA04121CC799CE00E98670 /* CZFoodDetailedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZFoodDetailedModel.m; sourceTree = "<group>"; };
+		85AA04241CC7AD7300E98670 /* CZStrConnectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZStrConnectManager.h; sourceTree = "<group>"; };
+		85AA04251CC7AD7300E98670 /* CZStrConnectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZStrConnectManager.m; sourceTree = "<group>"; };
+		85AF67E91CCC626B004998B0 /* CZCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCacheManager.h; sourceTree = "<group>"; };
+		85AF67EA1CCC626B004998B0 /* CZCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCacheManager.m; sourceTree = "<group>"; };
+		85BD391F1CBF438A00DEE9A3 /* CZRecipeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZRecipeScrollView.h; sourceTree = "<group>"; };
+		85BD39201CBF438A00DEE9A3 /* CZRecipeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZRecipeScrollView.m; sourceTree = "<group>"; };
+		85BD39221CBF4BA300DEE9A3 /* NSString+BreakUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BreakUp.h"; sourceTree = "<group>"; };
+		85BD39231CBF4BA300DEE9A3 /* NSString+BreakUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BreakUp.m"; sourceTree = "<group>"; };
+		85BD39251CBF734700DEE9A3 /* CZIngredientsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZIngredientsView.h; sourceTree = "<group>"; };
+		85BD39261CBF734700DEE9A3 /* CZIngredientsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZIngredientsView.m; sourceTree = "<group>"; };
+		85D1EFEC1CAF89D90090451A /* GourmetRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GourmetRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D1EFF01CAF89D90090451A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85D1EFF21CAF89D90090451A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85D1EFF31CAF89D90090451A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85D1EFF91CAF89D90090451A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85D1EFFB1CAF89D90090451A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		85D1F0001CAF89D90090451A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85D1F0051CAF89DA0090451A /* GourmetRecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GourmetRecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D1F0091CAF89DA0090451A /* GourmetRecipesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GourmetRecipesTests.m; sourceTree = "<group>"; };
+		85D1F00B1CAF89DA0090451A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85D1F0101CAF89DA0090451A /* GourmetRecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GourmetRecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D1F0141CAF89DA0090451A /* GourmetRecipesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GourmetRecipesUITests.m; sourceTree = "<group>"; };
+		85D1F0161CAF89DA0090451A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85D1F04D1CAF8E250090451A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		85D1F04E1CAF8E9E0090451A /* CZFoodVarietyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZFoodVarietyModel.h; sourceTree = "<group>"; };
+		85D1F04F1CAF8E9E0090451A /* CZFoodVarietyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZFoodVarietyModel.m; sourceTree = "<group>"; };
+		85D1F0511CAF8EB40090451A /* CZRecipeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZRecipeModel.h; sourceTree = "<group>"; };
+		85D1F0521CAF8EB40090451A /* CZRecipeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZRecipeModel.m; sourceTree = "<group>"; };
+		85DE53A01CC861B900D26D81 /* CZAdverCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAdverCycleView.h; sourceTree = "<group>"; };
+		85DE53A11CC861B900D26D81 /* CZAdverCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZAdverCycleView.m; sourceTree = "<group>"; };
+		85DE53AD1CC87A0E00D26D81 /* CZPersonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZPersonTableViewController.h; sourceTree = "<group>"; };
+		85DE53AE1CC87A0E00D26D81 /* CZPersonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZPersonTableViewController.m; sourceTree = "<group>"; };
+		85DE53B01CC87C1700D26D81 /* person.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = person.storyboard; sourceTree = "<group>"; };
+		85DE53B91CC89F2200D26D81 /* CZFavouriteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZFavouriteTableViewController.h; sourceTree = "<group>"; };
+		85DE53BA1CC89F2200D26D81 /* CZFavouriteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZFavouriteTableViewController.m; sourceTree = "<group>"; };
+		A8AA3C614D3918D059CB3256 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF508831068259240E9A76F7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85D1EFE91CAF89D90090451A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE88F34AEA39BC9EA1A861CF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D1F0021CAF89DA0090451A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D1F00D1CAF89DA0090451A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E6DF6CC6B90932A3AF2E764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8AA3C614D3918D059CB3256 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8553C1E81CC9B05200234DAB /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				8553C1E91CC9B08900234DAB /* CZSearchViewController.h */,
+				8553C1EA1CC9B08900234DAB /* CZSearchViewController.m */,
+				8553C26A1CC9EB3C00234DAB /* View */,
+			);
+			path = "搜索";
+			sourceTree = "<group>";
+		};
+		8553C26A1CC9EB3C00234DAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8553C26B1CC9EB7100234DAB /* CZSearchScrollView.h */,
+				8553C26C1CC9EB7100234DAB /* CZSearchScrollView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		856A8C031CC092140005BC3C /* 烹饪模式 */ = {
+			isa = PBXGroup;
+			children = (
+				856A8C041CC092580005BC3C /* CZCokingViewController.h */,
+				856A8C051CC092580005BC3C /* CZCokingViewController.m */,
+				856A8C071CC0B1E10005BC3C /* View */,
+			);
+			path = "烹饪模式";
+			sourceTree = "<group>";
+		};
+		856A8C071CC0B1E10005BC3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				856A8C0B1CC0B2720005BC3C /* CZLeftView.h */,
+				856A8C0C1CC0B2720005BC3C /* CZLeftView.m */,
+				856A8C0E1CC0B4CA0005BC3C /* CZRightView.h */,
+				856A8C0F1CC0B4CA0005BC3C /* CZRightView.m */,
+				8590CAFC1CC1E91300E27B4A /* CZStepView.h */,
+				8590CAFD1CC1E91300E27B4A /* CZStepView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8581AB741CCB4D3B008BF0A0 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				8581AB751CCB4D3B008BF0A0 /* CZWelcomeViewController.h */,
+				8581AB761CCB4D3B008BF0A0 /* CZWelcomeViewController.m */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		859852B51CBF259D00134D77 /* 大菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				85AA03B31CC71C9C00E98670 /* Model */,
+				859852CC1CBF283300134D77 /* View */,
+				859852CB1CBF282B00134D77 /* Controller */,
+			);
+			path = "大菜单";
+			sourceTree = "<group>";
+		};
+		859852B61CBF25A600134D77 /* 小菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				859852CA1CBF282000134D77 /* View */,
+				859852C91CBF281700134D77 /* Controller */,
+			);
+			name = "小菜单";
+			path = "小菜单 ";
+			sourceTree = "<group>";
+		};
+		859852B71CBF25AC00134D77 /* 菜谱 */ = {
+			isa = PBXGroup;
+			children = (
+				85BD39281CBF756400DEE9A3 /* Model */,
+				859852C81CBF280100134D77 /* View */,
+				859852C71CBF27EA00134D77 /* Controller */,
+			);
+			path = "菜谱";
+			sourceTree = "<group>";
+		};
+		859852C71CBF27EA00134D77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				859852B81CBF275700134D77 /* CZShowRecipeViewController.h */,
+				859852B91CBF275700134D77 /* CZShowRecipeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		859852C81CBF280100134D77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85BD391F1CBF438A00DEE9A3 /* CZRecipeScrollView.h */,
+				85BD39201CBF438A00DEE9A3 /* CZRecipeScrollView.m */,
+				85BD39251CBF734700DEE9A3 /* CZIngredientsView.h */,
+				85BD39261CBF734700DEE9A3 /* CZIngredientsView.m */,
+				8520F9AB1CBF9FC90058CAC9 /* CZStepsButton.h */,
+				8520F9AC1CBF9FC90058CAC9 /* CZStepsButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		859852C91CBF281700134D77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				859852BF1CBF276A00134D77 /* CZRecipSubListViewController.h */,
+				859852C01CBF276A00134D77 /* CZRecipSubListViewController.m */,
+			);
+			name = Controller;
+			path = Comtroller;
+			sourceTree = "<group>";
+		};
+		859852CA1CBF282000134D77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				859852BB1CBF276A00134D77 /* CZCollectionViewCell.h */,
+				859852BC1CBF276A00134D77 /* CZCollectionViewCell.m */,
+				859852BD1CBF276A00134D77 /* CZControlSwitchView.h */,
+				859852BE1CBF276A00134D77 /* CZControlSwitchView.m */,
+				859E5A241CC4A50100FF21FF /* CZTableViewCell.h */,
+				859E5A251CC4A50100FF21FF /* CZTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		859852CB1CBF282B00134D77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				859852C41CBF277F00134D77 /* CZMainViewController.h */,
+				859852C51CBF277F00134D77 /* CZMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		859852CC1CBF283300134D77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85AA03B01CC7104200E98670 /* CZListCollectionViewCell.h */,
+				85AA03B11CC7104200E98670 /* CZListCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85AA03B31CC71C9C00E98670 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85AA03B41CC71CD500E98670 /* CZIconModel.h */,
+				85AA03B51CC71CD500E98670 /* CZIconModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85AA03FC1CC7629300E98670 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				85AA03FD1CC7631800E98670 /* CZTabBar.h */,
+				85AA03FE1CC7631800E98670 /* CZTabBar.m */,
+				85AA04001CC7633F00E98670 /* CZTabBarController.h */,
+				85AA04011CC7633F00E98670 /* CZTabBarController.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		85AA04061CC7866E00E98670 /* 个人 */ = {
+			isa = PBXGroup;
+			children = (
+				8553C1E81CC9B05200234DAB /* 搜索 */,
+				85DE53B81CC89EB600D26D81 /* 收藏 */,
+				85DE53A91CC879C300D26D81 /* Controller */,
+				85DE53991CC860DC00D26D81 /* View */,
+				85AA04071CC7957500E98670 /* Model */,
+			);
+			path = "个人";
+			sourceTree = "<group>";
+		};
+		85AA04071CC7957500E98670 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85AA04111CC799CE00E98670 /* CZFoodDetailedModel.h */,
+				85AA04121CC799CE00E98670 /* CZFoodDetailedModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85BD39281CBF756400DEE9A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85D1EFE31CAF89D90090451A = {
+			isa = PBXGroup;
+			children = (
+				85D1EFEE1CAF89D90090451A /* GourmetRecipes */,
+				85D1F0081CAF89DA0090451A /* GourmetRecipesTests */,
+				85D1F0131CAF89DA0090451A /* GourmetRecipesUITests */,
+				85D1EFED1CAF89D90090451A /* Products */,
+				DCA2FD542EA0DAB4C16811A3 /* Pods */,
+				3E6DF6CC6B90932A3AF2E764 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85D1EFED1CAF89D90090451A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85D1EFEC1CAF89D90090451A /* GourmetRecipes.app */,
+				85D1F0051CAF89DA0090451A /* GourmetRecipesTests.xctest */,
+				85D1F0101CAF89DA0090451A /* GourmetRecipesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85D1EFEE1CAF89D90090451A /* GourmetRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				85D1EFF21CAF89D90090451A /* AppDelegate.h */,
+				85D1EFF31CAF89D90090451A /* AppDelegate.m */,
+				8581AB741CCB4D3B008BF0A0 /* Welcome */,
+				85AA04061CC7866E00E98670 /* 个人 */,
+				85D1F0401CAF8AE30090451A /* Category */,
+				85D1F0411CAF8AE30090451A /* Define */,
+				85D1F0431CAF8AE30090451A /* Tools */,
+				85D1F0441CAF8AE30090451A /* Resource */,
+				85D1F0451CAF8AE30090451A /* SupportingFiles */,
+				85D1F0461CAF8AE30090451A /* Vender */,
+				85D1F0421CAF8AE30090451A /* Model */,
+				856A8C031CC092140005BC3C /* 烹饪模式 */,
+				859852B71CBF25AC00134D77 /* 菜谱 */,
+				859852B61CBF25A600134D77 /* 小菜单 */,
+				859852B51CBF259D00134D77 /* 大菜单 */,
+				85AA03FC1CC7629300E98670 /* TabBarController */,
+				85D1EFEF1CAF89D90090451A /* Supporting Files */,
+			);
+			path = GourmetRecipes;
+			sourceTree = "<group>";
+		};
+		85D1EFEF1CAF89D90090451A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8568739A1CD086FB00EA5E82 /* frxz.mp3 */,
+				85D1F0001CAF89D90090451A /* Info.plist */,
+				85D1EFF01CAF89D90090451A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85D1F0081CAF89DA0090451A /* GourmetRecipesTests */ = {
+			isa = PBXGroup;
+			children = (
+				85D1F0091CAF89DA0090451A /* GourmetRecipesTests.m */,
+				85D1F00B1CAF89DA0090451A /* Info.plist */,
+			);
+			path = GourmetRecipesTests;
+			sourceTree = "<group>";
+		};
+		85D1F0131CAF89DA0090451A /* GourmetRecipesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85D1F0141CAF89DA0090451A /* GourmetRecipesUITests.m */,
+				85D1F0161CAF89DA0090451A /* Info.plist */,
+			);
+			path = GourmetRecipesUITests;
+			sourceTree = "<group>";
+		};
+		85D1F0401CAF8AE30090451A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				856F74341CB8B5890084A73D /* NSObject+Parse.h */,
+				856F74351CB8B5890084A73D /* NSObject+Parse.m */,
+				856F74361CB8B5890084A73D /* NSObject+request.h */,
+				856F74371CB8B5890084A73D /* NSObject+request.m */,
+				851626F31CBB6A2A00E0680E /* UIScrollView+Refresh.h */,
+				851626F41CBB6A2A00E0680E /* UIScrollView+Refresh.m */,
+				85BD39221CBF4BA300DEE9A3 /* NSString+BreakUp.h */,
+				85BD39231CBF4BA300DEE9A3 /* NSString+BreakUp.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		85D1F0411CAF8AE30090451A /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				85D1F04D1CAF8E250090451A /* PrefixHeader.pch */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		85D1F0421CAF8AE30090451A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85D1F0511CAF8EB40090451A /* CZRecipeModel.h */,
+				85D1F0521CAF8EB40090451A /* CZRecipeModel.m */,
+				85D1F04E1CAF8E9E0090451A /* CZFoodVarietyModel.h */,
+				85D1F04F1CAF8E9E0090451A /* CZFoodVarietyModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85D1F0431CAF8AE30090451A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				856F74311CB8B5650084A73D /* CZRequestManager.h */,
+				856F74321CB8B5650084A73D /* CZRequestManager.m */,
+				852E85211CBCEB7F00A6ED78 /* CZRecipeManager.h */,
+				852E85221CBCEB7F00A6ED78 /* CZRecipeManager.m */,
+				85AA04241CC7AD7300E98670 /* CZStrConnectManager.h */,
+				85AA04251CC7AD7300E98670 /* CZStrConnectManager.m */,
+				85AF67E91CCC626B004998B0 /* CZCacheManager.h */,
+				85AF67EA1CCC626B004998B0 /* CZCacheManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		85D1F0441CAF8AE30090451A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				85D1EFF81CAF89D90090451A /* Main.storyboard */,
+				85D1EFFB1CAF89D90090451A /* Assets.xcassets */,
+				857CAE241CC6577D00BB4D82 /* recipe.plist */,
+				85DE53B01CC87C1700D26D81 /* person.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		85D1F0451CAF8AE30090451A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		85D1F0461CAF8AE30090451A /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		85DE53991CC860DC00D26D81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85DE53A01CC861B900D26D81 /* CZAdverCycleView.h */,
+				85DE53A11CC861B900D26D81 /* CZAdverCycleView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85DE53A91CC879C300D26D81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85DE53AD1CC87A0E00D26D81 /* CZPersonTableViewController.h */,
+				85DE53AE1CC87A0E00D26D81 /* CZPersonTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		85DE53B81CC89EB600D26D81 /* 收藏 */ = {
+			isa = PBXGroup;
+			children = (
+				85DE53B91CC89F2200D26D81 /* CZFavouriteTableViewController.h */,
+				85DE53BA1CC89F2200D26D81 /* CZFavouriteTableViewController.m */,
+			);
+			path = "收藏";
+			sourceTree = "<group>";
+		};
+		DCA2FD542EA0DAB4C16811A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF508831068259240E9A76F7 /* Pods.debug.xcconfig */,
+				22BC5563341D2026C9C49138 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85D1EFEB1CAF89D90090451A /* GourmetRecipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85D1F0191CAF89DA0090451A /* Build configuration list for PBXNativeTarget "GourmetRecipes" */;
+			buildPhases = (
+				A599EDC1011B636902F1D425 /* Check Pods Manifest.lock */,
+				85D1EFE81CAF89D90090451A /* Sources */,
+				85D1EFE91CAF89D90090451A /* Frameworks */,
+				85D1EFEA1CAF89D90090451A /* Resources */,
+				9C95AFC4E70BB7A7823474A6 /* Embed Pods Frameworks */,
+				54EB2C8030ECE77F1E1A5372 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GourmetRecipes;
+			productName = GourmetRecipes;
+			productReference = 85D1EFEC1CAF89D90090451A /* GourmetRecipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85D1F0041CAF89DA0090451A /* GourmetRecipesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85D1F01C1CAF89DA0090451A /* Build configuration list for PBXNativeTarget "GourmetRecipesTests" */;
+			buildPhases = (
+				85D1F0011CAF89DA0090451A /* Sources */,
+				85D1F0021CAF89DA0090451A /* Frameworks */,
+				85D1F0031CAF89DA0090451A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85D1F0071CAF89DA0090451A /* PBXTargetDependency */,
+			);
+			name = GourmetRecipesTests;
+			productName = GourmetRecipesTests;
+			productReference = 85D1F0051CAF89DA0090451A /* GourmetRecipesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85D1F00F1CAF89DA0090451A /* GourmetRecipesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85D1F01F1CAF89DA0090451A /* Build configuration list for PBXNativeTarget "GourmetRecipesUITests" */;
+			buildPhases = (
+				85D1F00C1CAF89DA0090451A /* Sources */,
+				85D1F00D1CAF89DA0090451A /* Frameworks */,
+				85D1F00E1CAF89DA0090451A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85D1F0121CAF89DA0090451A /* PBXTargetDependency */,
+			);
+			name = GourmetRecipesUITests;
+			productName = GourmetRecipesUITests;
+			productReference = 85D1F0101CAF89DA0090451A /* GourmetRecipesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85D1EFE41CAF89D90090451A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zcz;
+				TargetAttributes = {
+					85D1EFEB1CAF89D90090451A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V9U62K5KE8;
+					};
+					85D1F0041CAF89DA0090451A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 85D1EFEB1CAF89D90090451A;
+					};
+					85D1F00F1CAF89DA0090451A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 85D1EFEB1CAF89D90090451A;
+					};
+				};
+			};
+			buildConfigurationList = 85D1EFE71CAF89D90090451A /* Build configuration list for PBXProject "GourmetRecipes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85D1EFE31CAF89D90090451A;
+			productRefGroup = 85D1EFED1CAF89D90090451A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85D1EFEB1CAF89D90090451A /* GourmetRecipes */,
+				85D1F0041CAF89DA0090451A /* GourmetRecipesTests */,
+				85D1F00F1CAF89DA0090451A /* GourmetRecipesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85D1EFEA1CAF89D90090451A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857CAE251CC6577D00BB4D82 /* recipe.plist in Resources */,
+				85DE53B11CC87C1700D26D81 /* person.storyboard in Resources */,
+				85D1EFFC1CAF89D90090451A /* Assets.xcassets in Resources */,
+				85D1EFFA1CAF89D90090451A /* Main.storyboard in Resources */,
+				8568739B1CD086FB00EA5E82 /* frxz.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D1F0031CAF89DA0090451A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D1F00E1CAF89DA0090451A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54EB2C8030ECE77F1E1A5372 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C95AFC4E70BB7A7823474A6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A599EDC1011B636902F1D425 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85D1EFE81CAF89D90090451A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859852C11CBF276A00134D77 /* CZCollectionViewCell.m in Sources */,
+				85DE53AF1CC87A0E00D26D81 /* CZPersonTableViewController.m in Sources */,
+				859852C61CBF277F00134D77 /* CZMainViewController.m in Sources */,
+				85DE53A21CC861B900D26D81 /* CZAdverCycleView.m in Sources */,
+				856A8C0D1CC0B2720005BC3C /* CZLeftView.m in Sources */,
+				856F74331CB8B5650084A73D /* CZRequestManager.m in Sources */,
+				859852BA1CBF275700134D77 /* CZShowRecipeViewController.m in Sources */,
+				85D1F0501CAF8E9E0090451A /* CZFoodVarietyModel.m in Sources */,
+				85D1EFF41CAF89D90090451A /* AppDelegate.m in Sources */,
+				8553C1EB1CC9B08900234DAB /* CZSearchViewController.m in Sources */,
+				859E5A261CC4A50100FF21FF /* CZTableViewCell.m in Sources */,
+				85AA03B61CC71CD500E98670 /* CZIconModel.m in Sources */,
+				8553C26D1CC9EB7100234DAB /* CZSearchScrollView.m in Sources */,
+				85D1EFF11CAF89D90090451A /* main.m in Sources */,
+				856A8C061CC092580005BC3C /* CZCokingViewController.m in Sources */,
+				852E85231CBCEB7F00A6ED78 /* CZRecipeManager.m in Sources */,
+				85DE53BB1CC89F2200D26D81 /* CZFavouriteTableViewController.m in Sources */,
+				859852C31CBF276A00134D77 /* CZRecipSubListViewController.m in Sources */,
+				85BD39241CBF4BA300DEE9A3 /* NSString+BreakUp.m in Sources */,
+				856F74381CB8B5890084A73D /* NSObject+Parse.m in Sources */,
+				859852C21CBF276A00134D77 /* CZControlSwitchView.m in Sources */,
+				85D1F0531CAF8EB40090451A /* CZRecipeModel.m in Sources */,
+				851626F51CBB6A2A00E0680E /* UIScrollView+Refresh.m in Sources */,
+				8581AB771CCB4D3B008BF0A0 /* CZWelcomeViewController.m in Sources */,
+				85BD39211CBF438A00DEE9A3 /* CZRecipeScrollView.m in Sources */,
+				85AA04021CC7633F00E98670 /* CZTabBarController.m in Sources */,
+				856A8C101CC0B4CA0005BC3C /* CZRightView.m in Sources */,
+				85BD39271CBF734700DEE9A3 /* CZIngredientsView.m in Sources */,
+				8520F9AD1CBF9FC90058CAC9 /* CZStepsButton.m in Sources */,
+				8590CAFE1CC1E91300E27B4A /* CZStepView.m in Sources */,
+				856F74391CB8B5890084A73D /* NSObject+request.m in Sources */,
+				85AF67EB1CCC626B004998B0 /* CZCacheManager.m in Sources */,
+				85AA03FF1CC7631800E98670 /* CZTabBar.m in Sources */,
+				85AA03B21CC7104200E98670 /* CZListCollectionViewCell.m in Sources */,
+				85AA04131CC799CE00E98670 /* CZFoodDetailedModel.m in Sources */,
+				85AA04261CC7AD7300E98670 /* CZStrConnectManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D1F0011CAF89DA0090451A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D1F00A1CAF89DA0090451A /* GourmetRecipesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D1F00C1CAF89DA0090451A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D1F0151CAF89DA0090451A /* GourmetRecipesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85D1F0071CAF89DA0090451A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85D1EFEB1CAF89D90090451A /* GourmetRecipes */;
+			targetProxy = 85D1F0061CAF89DA0090451A /* PBXContainerItemProxy */;
+		};
+		85D1F0121CAF89DA0090451A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85D1EFEB1CAF89D90090451A /* GourmetRecipes */;
+			targetProxy = 85D1F0111CAF89DA0090451A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85D1EFF81CAF89D90090451A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85D1EFF91CAF89D90090451A /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85D1F0171CAF89DA0090451A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85D1F0181CAF89DA0090451A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85D1F01A1CAF89DA0090451A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF508831068259240E9A76F7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Define/PrefixHeader.pch";
+				INFOPLIST_FILE = GourmetRecipes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.GourmetRecipes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e00d8a9f-8e47-4ba8-bdf8-6c218962205a";
+			};
+			name = Debug;
+		};
+		85D1F01B1CAF89DA0090451A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BC5563341D2026C9C49138 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Define/PrefixHeader.pch";
+				INFOPLIST_FILE = GourmetRecipes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.GourmetRecipes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e00d8a9f-8e47-4ba8-bdf8-6c218962205a";
+			};
+			name = Release;
+		};
+		85D1F01D1CAF89DA0090451A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GourmetRecipesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcZhao.GourmetRecipesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GourmetRecipes.app/GourmetRecipes";
+			};
+			name = Debug;
+		};
+		85D1F01E1CAF89DA0090451A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GourmetRecipesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcZhao.GourmetRecipesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GourmetRecipes.app/GourmetRecipes";
+			};
+			name = Release;
+		};
+		85D1F0201CAF89DA0090451A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GourmetRecipesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcZhao.GourmetRecipesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GourmetRecipes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		85D1F0211CAF89DA0090451A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GourmetRecipesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcZhao.GourmetRecipesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GourmetRecipes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85D1EFE71CAF89D90090451A /* Build configuration list for PBXProject "GourmetRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D1F0171CAF89DA0090451A /* Debug */,
+				85D1F0181CAF89DA0090451A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85D1F0191CAF89DA0090451A /* Build configuration list for PBXNativeTarget "GourmetRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D1F01A1CAF89DA0090451A /* Debug */,
+				85D1F01B1CAF89DA0090451A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85D1F01C1CAF89DA0090451A /* Build configuration list for PBXNativeTarget "GourmetRecipesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D1F01D1CAF89DA0090451A /* Debug */,
+				85D1F01E1CAF89DA0090451A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85D1F01F1CAF89DA0090451A /* Build configuration list for PBXNativeTarget "GourmetRecipesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D1F0201CAF89DA0090451A /* Debug */,
+				85D1F0211CAF89DA0090451A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85D1EFE41CAF89D90090451A /* Project object */;
+}

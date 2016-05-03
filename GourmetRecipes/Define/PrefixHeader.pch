@@ -1,0 +1,50 @@
+//
+//  PrefixHeader.pch
+//  GourmetRecipes
+//
+//  Created by tarena on 16/4/2.
+//  Copyright © 2016年 zcz. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#define kColorRGB(R,G,B,Alpha) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:Alpha]
+
+#define WK(weakSelf) __weak __typeof(&*self)weakSelf = self;
+/** 屏幕宽 */
+#define kScreenW [UIScreen mainScreen].bounds.size.width
+/** 屏幕高 */
+#define kScreenH [UIScreen mainScreen].bounds.size.height
+/** 菜单列表请求Api */
+#define kVarietyModelAddress @"http://apis.juhe.cn/cook/category?key=ae1e2ce8b478412d018178fb92e39960"
+#define kVarietySubListModelAddress @"http://apis.juhe.cn/cook/index?key=ae1e2ce8b478412d018178fb92e39960"
+/** 食材模型 */
+#define kFoodMaterialModeAddress  @"http://api.avatardata.cn/Food/Name?key=1e3c83b1c55b4606aad680f55843e435&format=true"
+#define kHealthy @"http://apicloud.mob.com/appstore/health/search?key=1201a05f8d5c3&page=1&size=200"
+
+/** 网络请求响应时间限制 */
+#define kTimeoutInterval 30
+/** 菜谱页设置的间隔 */
+#define kSeparated 10
+/** 配料tableViewcell高 */
+#define kCellHeight 20
+/** 背景颜色 */
+#define kBgColor kColorRGB(240, 240, 240, 1)
+
+
+#import <AFNetworking.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <YYKit.h>
+#import <Masonry.h>
+#import "UIScrollView+Refresh.h"
+#import <MBProgressHUD.h>
+
+
+#define kFavourite @"favourite"
+
+
+#endif /* PrefixHeader_pch */
